@@ -1,0 +1,24 @@
+.avatar {
+  border-radius: 100%;
+  border: 1px solid var(--yellow-shade-color);
+}
+
+.avatar-xlg {
+  height: 180px;
+  width: 180px;
+}
+
+.avatar-lg {
+  height: 140px;
+  width: 140px;
+}
+
+.avatar-md {
+  height: 100px;
+  width: 100px;
+}
+
+.avatar-s {
+  height: 60px;
+  width: 60px;
+}

@@ -116,3 +116,16 @@ a {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
