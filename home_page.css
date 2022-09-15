@@ -1,0 +1,20 @@
+.homepage-content {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading1 {
+  color: var(--secondary-color);
+  font-size: 10rem;
+  text-shadow: 3px 0px var(--homepage-heading-textshadow-color);
+}
+
+.heading2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
