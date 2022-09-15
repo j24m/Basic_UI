@@ -5,6 +5,10 @@
   --secondary-color: #ffffff;
   --homepage-heading-textshadow-color: #d9b650;
   --box-shadow-color: #99999933;
+  --green-shade-color: #097a09;
+  --red-shade-color: #cd1f1f;
+  --yellow-shade-color: #f58c14;
+  --blue-shade-color: #4545b5;
 }
 
 * {
@@ -95,9 +99,20 @@ a {
   padding: 2rem;
   box-shadow: 0px 3px 8px var(--box-shadow-color);
   height: auto;
+  text-align: center;
 }
 
 .link-active {
   border-bottom: 0.2px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+.docs-heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.component-description {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
