@@ -1,0 +1,40 @@
+.badge-container {
+  position: relative;
+}
+
+.badge-status {
+  position: absolute;
+  border-radius: 50%;
+  border: solid var(--secondary-color);
+}
+
+.badge-active {
+  height: 2rem;
+  width: 2rem;
+  bottom: 1.2rem;
+  right: 2.5rem;
+  background-color: var(--green-shade-color);
+}
+
+.badge-offline {
+  height: 1.6rem;
+  width: 1.6rem;
+  bottom: 1rem;
+  right: 2rem;
+  background-color: var(--red-shade-color);
+}
+
+.badge-away {
+  height: 1.5rem;
+  width: 1.5rem;
+  bottom: 0.5rem;
+  right: 1rem;
+  background-color: var(--yellow-shade-color);
+}
+
+.offline-small {
+  height: 1.3rem;
+  width: 1.3rem;
+  bottom: 0;
+  right: 0.5rem;
+}
