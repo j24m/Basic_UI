@@ -9,6 +9,9 @@
   --red-shade-color: #cd1f1f;
   --yellow-shade-color: #f58c14;
   --blue-shade-color: #4545b5;
+  --brown-shade-color: #6a462f;
+  --gray-shade-color: #808080;
+  --gary-shade-color2: #2f4f4f;
 }
 
 * {
@@ -111,7 +114,7 @@ a {
 }
 
 .component-description {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 5rem;
 }
 
@@ -132,4 +135,19 @@ a {
   transform: scale(1.01);
   box-shadow: 0px 3px 8px var(--blue-shade-color);
   cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge-type-1 {
+  margin-bottom: 2rem;
+}
+
+.badge-type-2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }

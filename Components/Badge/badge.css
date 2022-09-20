@@ -1,5 +1,8 @@
 .badge-container {
+  display: flex;
   position: relative;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .badge-status {
@@ -37,4 +40,38 @@
   width: 1.3rem;
   bottom: 0;
   right: 0.5rem;
+}
+
+.icon {
+  color: var(--gray-shade-color);
+}
+
+.icon :hover {
+  cursor: pointer;
+  color: var(--gary-shade-color2);
+}
+
+.badge-on-icon-link {
+  position: relative;
+}
+
+.badge-on-icon {
+  position: absolute;
+  background-color: var(--red-shade-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+.badge-on-bellicon {
+  top: 0;
+  left: 2rem;
+  border-radius: 50%;
+}
+
+.badge-on-mail-icon {
+  border-radius: 35%;
+  top: 0;
+  left: 2.5rem;
 }

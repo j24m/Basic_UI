@@ -76,13 +76,93 @@
         </ul>
       </aside>
       <main class="documentation">
-        <div>hello world</div>
-        jsdbsjadnasjdbasadas ajshasdj ajsbdjas ashdgasjd ajdbasjd ejhwjfdnjfd
-        jdhsfj sajfhdu adjsfhu dsjhds askdnas
-        <br />
-        sjdhfdsjfjdnfjfn ajdfbsdjf
-        <br />
-        sdhfdwi efhsdfj
+        <h1 class="docs-heading">Button Component</h1>
+        <p class="component-description">
+          Buttons allow users to take actions, and make choices, with a single
+          tap.
+        </p>
+        <h1>Solid Buttons</h1>
+        <div class="btn-container">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn" disabled>Disabled</button>
+        </div>
+
+        <h1>Outlined Buttons</h1>
+        <div class="btn-container">
+          <button class="btn btn-primary-outline">Primary</button>
+          <button class="btn btn-secondary-outline">Secondary</button>
+        </div>
+        <h1>Labelled Icon Buttons</h1>
+        <div class="btn-container">
+          <button class="flex btn btn-primary">
+            <svg width="22" height="22" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM7 17q-1.125 0-1.7-.988q-.575-.987-.05-1.962L6.6 11.6L3 4H1.975q-.425 0-.7-.288Q1 3.425 1 3t.288-.713Q1.575 2 2 2h1.625q.275 0 .525.15t.375.425L5.2 4h14.75q.675 0 .925.5t-.025 1.05l-3.55 6.4q-.275.5-.725.775q-.45.275-1.025.275H8.1L7 15h11.025q.425 0 .7.287q.275.288.275.713t-.288.712Q18.425 17 18 17Z"
+              />
+            </svg>
+            Add to cart
+          </button>
+          <button class="flex btn btn-primary">
+            <svg width="22" height="22" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h11.175q.4 0 .763.15q.362.15.637.425l2.85 2.85q.275.275.425.637q.15.363.15.763V19q0 .825-.587 1.413Q19.825 21 19 21Zm7-3q1.25 0 2.125-.875T15 15q0-1.25-.875-2.125T12 12q-1.25 0-2.125.875T9 15q0 1.25.875 2.125T12 18Zm-5-8h7q.425 0 .713-.288Q15 9.425 15 9V7q0-.425-.287-.713Q14.425 6 14 6H7q-.425 0-.713.287Q6 6.575 6 7v2q0 .425.287.712Q6.575 10 7 10Z"
+              />
+            </svg>
+            Save
+          </button>
+          <button class="flex btn btn-primary-outline">
+            <svg width="22" height="22" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M7 21q-.825 0-1.412-.587Q5 19.825 5 19V6q-.425 0-.713-.287Q4 5.425 4 5t.287-.713Q4.575 4 5 4h4q0-.425.288-.713Q9.575 3 10 3h4q.425 0 .713.287Q15 3.575 15 4h4q.425 0 .712.287Q20 4.575 20 5t-.288.713Q19.425 6 19 6v13q0 .825-.587 1.413Q17.825 21 17 21Zm2-5q0 .425.288.712Q9.575 17 10 17t.713-.288Q11 16.425 11 16V9q0-.425-.287-.713Q10.425 8 10 8t-.712.287Q9 8.575 9 9Zm4 0q0 .425.288.712q.287.288.712.288t.713-.288Q15 16.425 15 16V9q0-.425-.287-.713Q14.425 8 14 8t-.712.287Q13 8.575 13 9Z"
+              />
+            </svg>
+            Delete
+          </button>
+        </div>
+        <h1>Floating Buttons</h1>
+        <div class="btn-container">
+          <a class="btn-floating-links" href="#">
+            <button class="btn btn-primary btn-floating">
+              <svg width="22" height="22" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a class="btn-floating-links" href="#">
+            <button class="btn btn-primary btn-floating">
+              <svg width="22" height="22" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a class="btn-floating-links" href="#">
+            <button class="btn btn-primary btn-floating">
+              <svg width="22" height="22" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 20q-.425 0-.712-.288Q11 19.425 11 19V7.825L6.125 12.7q-.3.3-.713.3Q5 13 4.7 12.7t-.3-.7q0-.4.3-.7l6.6-6.6q.15-.15.325-.213q.175-.062.375-.062t.388.062q.187.063.312.213l6.6 6.6q.3.3.3.7q0 .4-.3.7q-.3.3-.713.3q-.412 0-.712-.3L13 7.825V19q0 .425-.287.712Q12.425 20 12 20Z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a class="btn-floating-links" href="#">
+            <button class="btn btn-primary btn-floating">
+              <svg width="22" height="22" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3 20v-6l8-2l-8-2V4l19 8Z" />
+              </svg>
+            </button>
+          </a>
+        </div>
       </main>
     </div>
   </body>
