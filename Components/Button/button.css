@@ -1,6 +1,9 @@
 .btn-container {
   display: flex;
   align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 2rem;
 }
 .btn {
   padding: 1rem;
@@ -8,9 +11,6 @@
   border-style: none;
   border-radius: 0.5rem;
   cursor: pointer;
-  margin-right: 4rem;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -49,7 +49,6 @@
 }
 
 .btn-floating {
-  bottom: -4rem;
   position: absolute;
   border-radius: 50%;
   height: 4.2rem;

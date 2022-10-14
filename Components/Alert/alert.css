@@ -36,3 +36,26 @@
   border-color: var(--blue-shade-color);
   color: var(--blue-shade-color);
 }
+
+.alert-with-btn {
+  display: flex;
+  align-items: center;
+}
+
+.alert-container .alert-success .btn {
+  color: var(--green-shade-color);
+  margin-left: 22rem;
+}
+
+.alert-container .alert-success .btn:hover {
+  outline: 1px solid var(--green-shade-color);
+}
+
+.alert-container .alert-error .btn {
+  color: var(--red-shade-color);
+  margin-left: 19rem;
+}
+
+.alert-container .alert-error .btn:hover {
+  outline: 1px solid var(--red-shade-color);
+}

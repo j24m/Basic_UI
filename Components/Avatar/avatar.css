@@ -22,3 +22,27 @@
   height: 60px;
   width: 60px;
 }
+
+.text-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.text-xlg {
+  font-size: 10rem;
+}
+
+.text-lg {
+  font-size: 8rem;
+}
+
+.text-md {
+  font-size: 6rem;
+}
+
+.text-s {
+  font-size: 4rem;
+}
