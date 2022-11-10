@@ -6,8 +6,8 @@
   margin: 2rem;
 }
 .btn {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
   border-style: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -51,9 +51,12 @@
 .btn-floating {
   position: absolute;
   border-radius: 50%;
-  height: 4.2rem;
-  width: 4.2rem;
+  height: 5.5rem;
+  width: 5.5rem;
   box-shadow: 0px 3px 8px #ac9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-floating-links {
@@ -61,4 +64,24 @@
   width: 6rem;
   height: 5rem;
   margin: 2rem;
+}
+
+.btn-link-primary {
+  font-size: 1.8rem;
+  background: none;
+  color: var(--primary-color);
+}
+
+.btn-link-primary:hover {
+  color: var(--gray-shade-color);
+}
+
+.btn-link-secondary {
+  font-size: 1.8rem;
+  background: none;
+  color: var(--gray-shade-color);
+}
+
+.btn-link-secondary:hover {
+  color: var(--primary-color);
 }
