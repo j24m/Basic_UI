@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input | BASIC UI</title>
-    <link rel="stylesheet" href="./input.html" />
+    <link rel="stylesheet" href="./input.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
   <body>
@@ -79,6 +79,76 @@
       </aside>
       <main class="documentation">
         <h1 class="docs-heading">Input Component</h1>
+        <h2 class="sub-heading">Input with Placeholder and Outline</h2>
+        <div class="input-container">
+          <div class="input input-text">
+            <label for="text">
+              Full Name
+              <input type="text" name="text" placeholder="Enter Name" />
+            </label>
+          </div>
+          <div class="input input-email">
+            <label for="email">
+              Email *
+              <input type="email" name="email" placeholder="Enter email" />
+            </label>
+          </div>
+          <div class="input input-password">
+            <label for="password">
+              Password *
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+              />
+            </label>
+          </div>
+          <div class="input input-phone-no">
+            <label for="number">
+              Phone no.
+              <input
+                type="number"
+                name="number"
+                placeholder="Enter phone number"
+              />
+            </label>
+          </div>
+          <div class="input input-date">
+            <label for="date">
+              Date
+              <input type="date" name="date" />
+            </label>
+          </div>
+          <div class="input input-search">
+            <label for="search">
+              Search
+              <div class="search-icon">
+                <input type="search" name="search" placeholder="Search" />
+                <a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </label>
+          </div>
+          <div class="input input-file">
+            <label for="file">
+              <input type="file" name="file" />
+            </label>
+          </div>
+          <label class="radio-checkbox" for="radio">
+            <input type="radio" name="radio" />
+            Radio
+          </label>
+          <label class="radio-checkbox" for="checkbox">
+            <input type="checkbox" name="radio" />
+            Checkbox
+          </label>
+        </div>
       </main>
     </div>
   </body>

@@ -3,7 +3,6 @@
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  margin: 2rem;
 }
 .btn {
   padding: 1.2rem;
@@ -48,6 +47,12 @@
   color: var(--primary-color);
 }
 
+.btn-labelled-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .btn-floating {
   position: absolute;
   border-radius: 50%;
@@ -63,7 +68,6 @@
   position: relative;
   width: 6rem;
   height: 5rem;
-  margin: 2rem;
 }
 
 .btn-link-primary {

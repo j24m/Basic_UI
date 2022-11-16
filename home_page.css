@@ -9,13 +9,13 @@
 
 .heading1 {
   color: var(--secondary-color);
-  font-size: 10rem;
+  font-size: 15rem;
   text-shadow: 3px 0px var(--homepage-heading-textshadow-color);
 }
 
 .heading2 {
   color: var(--secondary-color);
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 5rem;
   text-align: center;
 }
@@ -25,21 +25,19 @@
 }
 
 .btn-homepage {
-  margin: auto;
   padding: 1rem;
   border-radius: 0.4rem;
   border-style: none;
-  width: 30rem;
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   justify-content: center;
-  align-items: center;
-  font-size: large;
+  font-size: 2rem;
   cursor: pointer;
 }
 
 .homepage button:hover {
-  transform: scale(1.03);
+  transition: 500ms ease;
+  box-shadow: 1px 10px 10px var(--brown-shade-color);
 }
 
 .homepage .footer {
