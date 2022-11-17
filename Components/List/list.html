@@ -7,6 +7,8 @@
     <title>List | BASIC UI</title>
     <link rel="stylesheet" href="./list.css" />
     <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/Components/Avatar/avatar.css" />
+    <link rel="stylesheet" href="/Components/Button/button.css" />
   </head>
   <body>
     <!-- header -->
@@ -78,13 +80,123 @@
         </ul>
       </aside>
       <main class="documentation">
-        <div>hello world</div>
-        jsdbsjadnasjdbasadas ajshasdj ajsbdjas ashdgasjd ajdbasjd ejhwjfdnjfd
-        jdhsfj sajfhdu adjsfhu dsjhds askdnas
-        <br />
-        sjdhfdsjfjdnfjfn ajdfbsdjf
-        <br />
-        sdhfdwi efhsdfj
+        <h1 class="docs-heading">List Component</h1>
+        <h2 class="sub-heading">Unordered list styles</h2>
+        <div class="unordered-lists">
+          <ul class="unordered-list-items">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ul>
+
+          <ul class="unordered-list-items" type="circle">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ul>
+
+          <ul class="unordered-list-items" type="square">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ul>
+        </div>
+        <h2 class="sub-heading">Ordered list styles</h2>
+        <div class="ordered-lists">
+          <ol class="ordered-list-items">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ol>
+          <ol class="ordered-list-items" type="a">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ol>
+          <ol class="ordered-list-items" type="A">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ol>
+          <ol class="ordered-list-items" type="i">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ol>
+          <ol class="ordered-list-items" type="I">
+            <li>Mechanical Keyboards</li>
+            <li>Keycaps</li>
+            <li>Mice</li>
+            <li>Cables</li>
+          </ol>
+        </div>
+        <h2 class="sub-heading">Stacked Notification List</h2>
+        <div class="stacked-notif-list-container">
+          <ul class="stacked-notif-list">
+            <div class="list-body">
+              <img
+                src="https://t4.ftcdn.net/jpg/02/60/19/05/240_F_260190542_GIZO0eVLXwIoT0QoJ5ZlZQkwvwCmZNpf.jpg"
+                alt=""
+                class="avatar avatar-s"
+              />
+              <p><strong>Jane_Doe</strong> started following you.</p>
+              <small>1w</small>
+            </div>
+            <div>
+              <button class="btn btn-primary">Follow</button>
+            </div>
+          </ul>
+          <ul class="stacked-notif-list">
+            <div class="list-body">
+              <img
+                src="https://as2.ftcdn.net/v2/jpg/04/64/70/53/1000_F_464705335_ajfyZHA9VyOZmGHxB1VJqX987JCmGZst.jpg"
+                alt=""
+                class="avatar avatar-s"
+              />
+              <div class="list-body-title">
+                <p>In case you missed <strong>Angela Yu's</strong> Tweet</p>
+                <small> Applying for an Indian visa 🎉</small>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-link-primary">Read more</button>
+            </div>
+          </ul>
+          <ul class="stacked-notif-list">
+            <div class="list-body">
+              <img
+                src="https://as2.ftcdn.net/v2/jpg/04/64/70/53/1000_F_464705335_ajfyZHA9VyOZmGHxB1VJqX987JCmGZst.jpg"
+                alt=""
+                class="avatar avatar-s"
+              />
+              <div class="list-body-title">
+                <p>
+                  Congratulate <strong>Jane Doe</strong> on starting a new
+                  position at <strong>Amazon</strong>.
+                </p>
+                <button class="btn btn-primary-outline">Say congrats</button>
+              </div>
+            </div>
+            <div class="list-body-right-part">
+              <small>4h</small>
+              <button title="read more" class="btn btn-link-primary">
+                <svg width="28" height="28" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </ul>
+        </div>
       </main>
     </div>
   </body>
