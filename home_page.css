@@ -9,7 +9,7 @@
 
 .heading1 {
   color: var(--secondary-color);
-  font-size: 15rem;
+  font-size: 10rem;
   text-shadow: 3px 0px var(--homepage-heading-textshadow-color);
 }
 

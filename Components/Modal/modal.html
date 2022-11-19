@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal | BASIC UI</title>
+    <link rel="stylesheet" href="/Components/Button/button.css" />
+    <link rel="stylesheet" href="/Components/Avatar/avatar.css" />
+    <link rel="stylesheet" href="/Components/Input/input.css" />
     <link rel="stylesheet" href="./modal.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -78,13 +81,95 @@
         </ul>
       </aside>
       <main class="documentation">
-        <div>hello world</div>
-        jsdbsjadnasjdbasadas ajshasdj ajsbdjas ashdgasjd ajdbasjd ejhwjfdnjfd
-        jdhsfj sajfhdu adjsfhu dsjhds askdnas
-        <br />
-        sjdhfdsjfjdnfjfn ajdfbsdjf
-        <br />
-        sdhfdwi efhsdfj
+        <h1 class="docs-heading">Modal Component</h1>
+        <h2 class="sub-heading">Login</h2>
+        <div class="login-modal">
+          <h1>Welcome</h1>
+          <div class="input-container">
+            <div class="input input-email">
+              <label for="email">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email *"
+                />
+              </label>
+            </div>
+            <div class="input input-password">
+              <label for="password">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter your password *"
+                />
+              </label>
+            </div>
+          </div>
+          <small>
+            Forgot password ?
+            <span><a href="#">Reset</a></span>
+          </small>
+          <button class="btn btn-primary">Login</button>
+          <a href="#">Create New Account ></a>
+        </div>
+        <h2 class="sub-heading">Signup</h2>
+        <div class="signup-modal">
+          <h1>Signup</h1>
+          <img
+            src="https://as2.ftcdn.net/v2/jpg/04/64/70/53/1000_F_464705335_ajfyZHA9VyOZmGHxB1VJqX987JCmGZst.jpg"
+            alt=""
+            class="avatar avatar-md"
+          />
+          <div class="input-container">
+            <div class="input input-text">
+              <label for="text">
+                Full Name
+                <input type="text" name="text" placeholder="Enter your Name" />
+              </label>
+            </div>
+            <div class="input input-phone-no">
+              <label for="number">
+                Phone no.
+                <input
+                  type="number"
+                  name="number"
+                  placeholder="Enter your phone number"
+                />
+              </label>
+            </div>
+            <div class="input input-email">
+              <label for="email">
+                Email *
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </label>
+            </div>
+            <div class="input input-password">
+              <label for="password">
+                Password *
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter your password"
+                />
+              </label>
+            </div>
+            <div class="input input-password">
+              <label for="password">
+                Re-enter Password *
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Re-enter your password"
+                />
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
       </main>
     </div>
   </body>

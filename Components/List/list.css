@@ -3,8 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  gap: 2rem;
+  /* justify-content: space-around; */
+  gap: 5rem;
 }
 
 .unordered-lists .unordered-list-items,
@@ -19,8 +19,7 @@
 }
 
 .stacked-notif-list {
-  width: 80%;
-  height: 10rem;
+  height: 8rem;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -34,6 +33,13 @@
   align-items: center;
   gap: 2rem;
   font-size: 1.5rem;
+}
+
+.list-body p,
+.list-body small {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .list-body small {
@@ -50,6 +56,7 @@
   width: 20rem;
   padding: 0.5rem;
   border-radius: 5rem;
+  font-size: 1.4rem;
 }
 
 .stacked-notif-list .btn-link-primary {

@@ -31,14 +31,17 @@ a {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
   height: 7rem;
-  box-shadow: 0px 3px 8px var(--box-shadow-color);
+  box-shadow: 0px 3px 8px var(--gray-shade-color);
   padding: 0 2rem;
   background-color: white;
+  z-index: 1000;
 }
 
 .brand {
@@ -61,11 +64,13 @@ a {
 }
 
 .sidebar {
+  position: sticky;
   flex: 1;
   font-size: 2rem;
   width: 25rem;
   padding: 1.4rem;
   margin-left: 1rem;
+  margin-top: 1rem;
   top: 7rem;
   overflow-y: auto;
   scroll-behavior: smooth;
@@ -74,10 +79,6 @@ a {
 
 .sidebar::-webkit-scrollbar {
   width: 10px;
-}
-
-.sidebar-headings {
-  margin-top: 1rem 0;
 }
 
 .component-names {
