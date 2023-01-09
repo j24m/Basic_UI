@@ -12,6 +12,9 @@
   --brown-shade-color: #66558f;
   --gray-shade-color: #808080;
   --gary-shade-color2: #2f4f4f;
+  --black-shade-color2: #050202d0;
+  --purple-shade-color: #9c27b0;
+  --purple-shade-color2: #7b208b;
 }
 /* #895737 */
 
@@ -66,7 +69,7 @@ a {
 .sidebar {
   position: sticky;
   flex: 1;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 25rem;
   padding: 1.4rem;
   margin-left: 1rem;
@@ -82,7 +85,7 @@ a {
 }
 
 .component-names {
-  color: gray;
+  color: var(--gray-shade-color);
   list-style-type: none;
   padding: 0.5rem;
   margin: 1rem;
@@ -105,8 +108,11 @@ a {
 }
 
 .link-active {
-  border-bottom: 0.2px solid var(--primary-color);
+  border: 0.2px solid var(--primary-color);
+  border-bottom: 2.5px solid var(--primary-color);
+  border-right: 2.5px solid var(--primary-color);
   color: var(--primary-color);
+  font-weight: 600;
 }
 
 .docs-heading {

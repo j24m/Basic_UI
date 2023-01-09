@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toast | BASIC UI</title>
+    <link rel="stylesheet" href="/Components/Button/button.css" />
     <link rel="stylesheet" href="./toast.css" />
     <link rel="stylesheet" href="/common.css" />
+    <script src="./toast.js"></script>
   </head>
   <body>
     <!-- header -->
@@ -78,13 +80,37 @@
         </ul>
       </aside>
       <main class="documentation">
-        <div>hello world</div>
-        jsdbsjadnasjdbasadas ajshasdj ajsbdjas ashdgasjd ajdbasjd ejhwjfdnjfd
-        jdhsfj sajfhdu adjsfhu dsjhds askdnas
-        <br />
-        sjdhfdsjfjdnfjfn ajdfbsdjf
-        <br />
-        sdhfdwi efhsdfj
+        <h1 class="docs-heading">Toast Component</h1>
+        <div class="toast-simple-title">
+          <h2 class="sub-heading">Simple Toast</h2>
+          <h2 class="sub-heading sub-sub-heading">Variant 1</h2>
+        </div>
+        <div class="toast simple-toast">
+          <div>Archived</div>
+          <button>UNDO</button>
+        </div>
+        <h2 class="sub-heading sub-sub-heading">Variant 2</h2>
+        <div class="toast center-toast">
+          <div class="toast-center-title">
+            <div>Can't send photo.</div>
+            <button class="btn btn-link-primary">Retry</button>
+          </div>
+        </div>
+        <h2 class="sub-heading sub-sub-heading">Variant 3</h2>
+        <div class="toast center-toast">
+          <div class="toast-center-title">
+            <div>Oops ! Something went wrong.</div>
+            <button class="btn btn-link-primary">Retry</button>
+          </div>
+          <button class="btn btn-link-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"
+              />
+            </svg>
+          </button>
+        </div>
       </main>
     </div>
   </body>

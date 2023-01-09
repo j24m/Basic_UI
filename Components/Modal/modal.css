@@ -25,7 +25,7 @@
 .login-modal .input-container input,
 .signup-modal .input-container input {
   padding: 0.5rem;
-  width: 25rem;
+  width: 30rem;
   border: 2px solid var(--brown-shade-color);
   border-radius: 0.5rem;
 }
@@ -43,7 +43,8 @@
 
 .login-modal .btn,
 .signup-modal .btn {
-  width: 25rem;
+  width: 30rem;
+  padding: 0.5rem;
 }
 
 .login-modal a {
