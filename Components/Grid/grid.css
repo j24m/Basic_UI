@@ -1,0 +1,20 @@
+.grid-5050 {
+  border: 1px solid var(--gary-shade-color2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.grid-3070 {
+  border: 1px solid var(--gary-shade-color2);
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-gap: 2rem;
+}
+
+.grid-2080 {
+  border: 1px solid var(--gary-shade-color2);
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-gap: 2rem;
+}

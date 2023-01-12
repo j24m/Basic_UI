@@ -78,6 +78,7 @@ a {
   overflow-y: auto;
   scroll-behavior: smooth;
   height: 90vh;
+  border-radius: 1rem;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -89,7 +90,7 @@ a {
   list-style-type: none;
   padding: 0.5rem;
   margin: 1rem;
-  width: 20rem;
+  width: 21rem;
   border: 0.2px solid transparent;
 }
 
@@ -103,7 +104,7 @@ a {
   flex: 5;
   margin: 0rem 7rem 0rem 1rem;
   padding: 2rem;
-  box-shadow: 0px 3px 8px var(--box-shadow-color);
+  box-shadow: 0px 3px 8px var(--gray-shade-color);
   height: auto;
 }
 

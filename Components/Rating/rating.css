@@ -1,0 +1,6 @@
+.rating {
+  cursor: pointer;
+}
+.selected-rating {
+  color: var(--yellow-shade-color);
+}
