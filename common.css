@@ -15,6 +15,11 @@
   --black-shade-color2: #050202d0;
   --purple-shade-color: #9c27b0;
   --purple-shade-color2: #7b208b;
+  --code-snippet-background-color: #5a5454;
+  --alert-success-bg-clr: #ceffce;
+  --alert-error-bg-clr: #ffc0c0;
+  --alert-warning-bg-clr: #f6f6a2;
+  --alert-info-bg-clr: #bebefe;
 }
 /* #895737 */
 

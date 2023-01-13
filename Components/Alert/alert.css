@@ -27,24 +27,24 @@
 }
 
 .alert-success {
-  background-color: rgb(206, 255, 206);
+  background-color: var(--alert-success-bg-clr);
   border-color: var(--green-shade-color);
   color: var(--green-shade-color);
 }
 
 .alert-error {
-  background-color: rgb(255, 192, 192);
+  background-color: var(--alert-error-bg-clr);
   border-color: var(--red-shade-color);
   color: var(--red-shade-color);
 }
 
 .alert-warning {
-  background-color: rgb(246, 246, 162);
+  background-color: var(--alert-warning-bg-clr);
   border-color: var(--yellow-shade-color);
   color: var(--yellow-shade-color);
 }
 .alert-info {
-  background-color: rgb(190, 190, 254);
+  background-color: var(--alert-info-bg-clr);
   border-color: var(--blue-shade-color);
   color: var(--blue-shade-color);
 }
