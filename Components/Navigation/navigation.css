@@ -1,25 +1,25 @@
 .nav-container .navbar {
-  margin: 5rem;
+  z-index: 99;
 }
 
-.nav-links {
+.nav-container .nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 30rem;
 }
 
-.nav-links .cart,
-.nav-links .wishlist,
-.nav-links .login {
+.nav-container .nav-links .cart,
+.nav-container .nav-links .wishlist,
+.nav-container .nav-links .login {
   font-size: 2rem;
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 900;
 }
 
-.nav-links .cart:hover,
-.nav-links .wishlist:hover,
-.nav-links .login:hover {
+.nav-container .nav-links .cart:hover,
+.nav-container .nav-links .wishlist:hover,
+.nav-container .nav-links .login:hover {
   color: var(--brown-shade-color);
 }
